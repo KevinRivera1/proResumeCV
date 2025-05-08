@@ -1,0 +1,9 @@
+/* Formularios */
+:where(:is(form, input, textarea, select, button, label)) {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	display: block;
+	appearance: none;
+	hyphens: auto;
+}
