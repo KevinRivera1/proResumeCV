@@ -5,7 +5,13 @@ interface TextAreaProps {
 	required?: boolean;
 	value?: string;
 }
-export const TextArea = ({ id, className="w-full", placeholder, required=false, value }: TextAreaProps) => {
+export const TextArea = ({
+	id,
+	className = 'w-full',
+	placeholder,
+	required = false,
+	value,
+}: TextAreaProps) => {
 	return (
 		<textarea
 			className={className}
