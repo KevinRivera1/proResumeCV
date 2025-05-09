@@ -1,5 +1,6 @@
 import { ButtonAdd } from '../../../components/shared/ButtonAdd';
 import { InputFiled } from '../../../components/shared/Inputfield';
+import { TextArea } from '../../../components/shared/TextArea';
 
 export const FormResumeExperience = () => {
 	return (
@@ -43,11 +44,11 @@ export const FormResumeExperience = () => {
 						<label htmlFor="descripcion-experiencia">
 							Descripción de Experiencia Profesional
 						</label>
-						<textarea
+						<TextArea
 							id="descripcion-experiencia"
 							placeholder="Descripción de la experiencia laboral"
 							required
-						></textarea>
+						/>
 					</div>
 					<div>
 						<label htmlFor="ubicacion-experiencia">Ubicación</label>
