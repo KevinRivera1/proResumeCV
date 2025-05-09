@@ -1,4 +1,5 @@
 import { ButtonAdd } from '../../../components/shared/ButtonAdd';
+import { InputFiled } from '../../../components/shared/Inputfield';
 
 export const FormResumeReferences = () => {
 	return (
@@ -8,7 +9,7 @@ export const FormResumeReferences = () => {
 				<div className="grid grid-cols-2 gap-4">
 					<div>
 						<label htmlFor="referencia-nombre">Nombre de la referencia</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="referencia-nombre"
@@ -18,7 +19,7 @@ export const FormResumeReferences = () => {
 					</div>
 					<div>
 						<label htmlFor="referencia-telefono">Teléfono</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="tel"
 							id="referencia-telefono"
@@ -28,7 +29,7 @@ export const FormResumeReferences = () => {
 					</div>
 					<div>
 						<label htmlFor="referencia-email">Correo electrónico</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="email"
 							id="referencia-email"

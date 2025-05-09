@@ -1,4 +1,6 @@
 import { ButtonAdd } from '../../../components/shared/ButtonAdd';
+import { InputFiled } from '../../../components/shared/Inputfield';
+import { TextArea } from '../../../components/shared/TextArea';
 
 export const FormResumeCertifications = () => {
 	return (
@@ -10,41 +12,42 @@ export const FormResumeCertifications = () => {
 						<label htmlFor="curso-nombre">
 							Nombre del curso o certificación
 						</label>
-						<input
-							className="w-full"
-							type="text"
+						<InputFiled
 							id="curso-nombre"
+							type="text"
+							className="w-full"
 							placeholder="Nombre del curso o certificación"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="institucion-curso">Institución</label>
-						<input
-							className="w-full"
-							type="text"
+						<InputFiled
 							id="institucion-curso"
+							type="text"
+							className="w-full"
 							placeholder="Institución del curso"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="fecha-obtencion">Fecha de obtención</label>
-						<input
-							className="w-full"
-							type="text"
+						<InputFiled
 							id="fecha-obtencion"
+							type="text"
+							className="w-full"
 							placeholder="Mes/Año"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="descripcion-curso">Descripción breve</label>
-						<textarea
+						<TextArea
 							id="descripcion-curso"
+							className="w-full"
 							placeholder="Descripción breve del curso"
-							required
-						></textarea>
+							required={true}
+						/>
 					</div>
 				</div>
 			</fieldset>

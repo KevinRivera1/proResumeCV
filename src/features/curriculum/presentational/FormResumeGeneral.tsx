@@ -1,3 +1,5 @@
+import { InputFiled } from '../../../components/shared/Inputfield';
+
 export const FormResumeGeneral = () => {
 	return (
 		<section>
@@ -6,81 +8,81 @@ export const FormResumeGeneral = () => {
 				<div className="grid grid-cols-2 gap-4">
 					<div>
 						<label htmlFor="nombres">Nombres</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="nombres"
 							placeholder="Ingrese sus Nombres"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="apellidos">Apellidos</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="apellidos"
 							placeholder="Ingrese sus Apellidos"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="direccion">Dirección</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="direccion"
 							placeholder="Ingrese su dirección"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="telefono">Teléfono</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="tel"
 							id="telefono"
 							placeholder="Ingrese su teléfono"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="fecha-nacimiento">Fecha de Nacimiento</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="date"
 							id="fecha-nacimiento"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="correo">Correo Electrónico</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="email"
 							id="correo"
 							placeholder="Ingrese su correo electrónico"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="estado-civil">Estado Civil</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="estado-civil"
 							placeholder="Ingrese su Estado Civil"
-							required
+							required={true}
 						/>
 					</div>
 					<div>
 						<label htmlFor="nacionalidad">Nacionalidad</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="nacionalidad"
 							placeholder="Ingrese su Nacionalidad"
-							required
+							required={true}
 						/>
 					</div>
 				</div>

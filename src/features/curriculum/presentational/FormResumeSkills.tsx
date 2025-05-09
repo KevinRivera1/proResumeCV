@@ -1,4 +1,5 @@
 import { ButtonAdd } from '../../../components/shared/ButtonAdd';
+import { InputFiled } from '../../../components/shared/Inputfield';
 
 export const FormResumeSkills = () => {
 	return (
@@ -8,7 +9,7 @@ export const FormResumeSkills = () => {
 				<div className="grid grid-cols-2 gap-4">
 					<div>
 						<label htmlFor="habilidades-tecnicas">Habilidades Técnicas</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="habilidades-tecnicas"
@@ -17,7 +18,7 @@ export const FormResumeSkills = () => {
 					</div>
 					<div>
 						<label htmlFor="habilidades-blandas">Habilidades Blandas</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="habilidades-blandas"
@@ -26,7 +27,7 @@ export const FormResumeSkills = () => {
 					</div>
 					<div>
 						<label htmlFor="idiomas">Idiomas</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="idiomas"

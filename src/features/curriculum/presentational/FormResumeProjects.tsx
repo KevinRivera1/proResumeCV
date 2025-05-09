@@ -1,4 +1,6 @@
 import { ButtonAdd } from '../../../components/shared/ButtonAdd';
+import { InputFiled } from '../../../components/shared/Inputfield';
+import { TextArea } from '../../../components/shared/TextArea';
 
 export const FormResumeProjects = () => {
 	return (
@@ -8,7 +10,7 @@ export const FormResumeProjects = () => {
 				<div className="grid grid-cols-2 gap-4">
 					<div>
 						<label htmlFor="proyecto-nombre">Nombre del proyecto</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="proyecto-nombre"
@@ -18,7 +20,7 @@ export const FormResumeProjects = () => {
 					</div>
 					<div>
 						<label htmlFor="proyecto-fecha">Fecha de realización</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="proyecto-fecha"
@@ -28,11 +30,11 @@ export const FormResumeProjects = () => {
 					</div>
 					<div>
 						<label htmlFor="proyecto-descripcion">Descripción breve</label>
-						<textarea
+						<TextArea
 							id="proyecto-descripcion"
 							placeholder="Descripción breve del proyecto"
 							required
-						></textarea>
+						/>
 					</div>
 				</div>
 			</fieldset>

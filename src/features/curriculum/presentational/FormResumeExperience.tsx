@@ -1,4 +1,5 @@
 import { ButtonAdd } from '../../../components/shared/ButtonAdd';
+import { InputFiled } from '../../../components/shared/Inputfield';
 
 export const FormResumeExperience = () => {
 	return (
@@ -8,7 +9,7 @@ export const FormResumeExperience = () => {
 				<div className="grid grid-cols-2 gap-4">
 					<div>
 						<label htmlFor="empresa">Nombre de la empresa</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="empresa"
@@ -18,7 +19,7 @@ export const FormResumeExperience = () => {
 					</div>
 					<div>
 						<label htmlFor="cargo">Cargo o puesto desempeñado</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="cargo"
@@ -30,7 +31,7 @@ export const FormResumeExperience = () => {
 						<label htmlFor="fechas-experiencia">
 							Fechas de inicio y fin (mes/año)
 						</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="fechas-experiencia"
@@ -50,7 +51,7 @@ export const FormResumeExperience = () => {
 					</div>
 					<div>
 						<label htmlFor="ubicacion-experiencia">Ubicación</label>
-						<input
+						<InputFiled
 							className="w-full"
 							type="text"
 							id="ubicacion-experiencia"
