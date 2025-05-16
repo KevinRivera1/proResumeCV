@@ -4,7 +4,12 @@ import { InputFiled } from '../../../components/shared/Inputfield';
 export const FormResumeAcademic = () => {
 	return (
 		<section>
-			<h3>Formación Académica</h3>
+			<div className="header font-bold flex items-center justify-between py-2">
+				<h3>Formación Académica</h3>
+				<div className="btn-action">
+					<ButtonAdd />
+				</div>
+			</div>
 			<fieldset>
 				<div className="grid grid-cols-2 gap-4">
 					<div>
@@ -51,9 +56,6 @@ export const FormResumeAcademic = () => {
 					</div>
 				</div>
 			</fieldset>
-			<div className="btn-action">
-				<ButtonAdd />
-			</div>
 		</section>
 	);
 };
