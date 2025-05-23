@@ -1,0 +1,16 @@
+/* Formularios */
+:where(:is(form, input, textarea, select, button, label)) {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	display: block;
+	appearance: none;
+	hyphens: auto;
+}
+
+:where(svg) {
+    width  : 100%;
+    height : auto;
+    display: block;
+    fill   : currentColor;
+}

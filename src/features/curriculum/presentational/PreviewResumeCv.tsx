@@ -1,9 +1,7 @@
 export const PreviewResumeCv = () => {
-    return (
-        <>
-            <div className="preview">
-                previsualizacion
-            </div>
-        </>
-    )
-}
+	return (
+		<>
+			<div className="preview">previsualizacion</div>
+		</>
+	);
+};
